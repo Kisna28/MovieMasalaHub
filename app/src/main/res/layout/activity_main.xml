@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#202020">
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/searchviewshape"
+        android:iconifiedByDefault="false"
+        android:queryHint="Movie Name.."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="162dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Title"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"/>
+
+    <!-- Release Year and Genre -->
+    <TextView
+        android:id="@+id/relese"
+        android:textColor="@color/smoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Relese Date"
+        android:textSize="20sp" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:textColor="@color/smoke"
+        android:layout_height="wrap_content"
+        android:text="type"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp" />
+
+    <!-- Plot -->
+    <TextView
+        android:id="@+id/plot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/smoke"
+        android:text="plot"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <!-- Other Details (Actors, Director, Language, etc.) -->
+    <TextView
+        android:id="@+id/actor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        android:textStyle="italic|bold"
+        android:textSize="21sp"
+        android:text="Actor"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/langauge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Langauge"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/smoke"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/contry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contry"
+        android:textColor="@color/smoke"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/awards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awards"
+        android:textColor="@color/smoke"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:textColor="@color/smoke"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
