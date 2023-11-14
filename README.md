@@ -27,3 +27,7 @@ Join MovieMasalaHub and embark on a cinematic journey that transcends boundaries
 
 🌟 Lights, Camera, Action! 🌟
 
+
+![leo](https://github.com/Kisna28/MovieMasalaHub/assets/125738423/1d8bd4d4-5c5a-4ebc-8022-b23fd39428e1)
+
+![pathaan](https://github.com/Kisna28/MovieMasalaHub/assets/125738423/a2ac9773-c6d6-420c-aea9-0d2f47154e73)
